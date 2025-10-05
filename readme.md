@@ -15,6 +15,7 @@
 - Remote Terraform state backend (S3 + DynamoDB locking)
 - GitHub Actions CI (plan + apply)
 
+
 ## Quickstart
 1. Configure AWS CLI credentials: `aws configure` or use environment vars.
 2. Create backend S3 bucket + DynamoDB table or run `scripts/bootstrap-backend.sh`.
